@@ -35,14 +35,14 @@
         "react/forbid-prop-types": [1],
         "react/jsx-no-bind": [0],
         "react/sort-comp": [1, {
-            order: [
+            "order": [
                 "static-methods",
                 "lifecycle",
                 "everything-else",
-                "rendering",
+                "rendering"
             ],
-            groups: {
-                rendering: [
+            "groups": {
+                "rendering": [
                     "/^render.+$/",
                     "render"
                 ]
@@ -67,22 +67,15 @@
         "node": true
     },
     "globals": {
-        "nw": true,
         "SyncHistoryService": true,
         "$": true,
         "AccountService": true,
         "toastr": true,
         "V": true,
-        "MServer": true,
-        "ArticleService": true,
         "ReportForm": true,
-        "WxbApi": true,
         "_": true,
-        "PlatformApi": true,
-        "LocalImageService": true,
         "SITE_URL": true,
         "chrome": true,
-        "particlesJS": true
     },
     "plugins": [
         "react"

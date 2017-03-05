@@ -2,8 +2,8 @@
 
 const api = {
     // 文案列表 API
-    home: '/adsdoc/list',
-    copyDetail: '/adsdoc/single',
+    home: '../../__mocks__/home.html',
+    about: '../../__mocks__/about.html',
 
 };
 

@@ -3,9 +3,9 @@ import { handleActions } from 'redux-actions';
 // import * as types from '../constans/ActionTypes';
 
 const about = handleActions({
-    GET_HOME: (state, action) => ({ copyList: action.payload.about }),
+    GET_HOME: (state, action) => ({ about: action.payload.about }),
 }, {
     // 初始值
-    about: {},
+    about: null,
 });
 export default about;
