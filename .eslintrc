@@ -75,7 +75,7 @@
         "ReportForm": true,
         "_": true,
         "SITE_URL": true,
-        "chrome": true,
+        "chrome": true
     },
     "plugins": [
         "react"
