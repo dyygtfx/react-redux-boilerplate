@@ -1,0 +1,31 @@
+{
+  "presets": [["latest", {
+      "es2015": {
+        "modules": false 
+      }
+    }], "react", "stage-2"],
+  "env": {
+    "production": {
+      "presets": ["react-optimize"],
+      "plugins": [
+        "dev-expression",
+         [
+            "babel-root-import",
+            [{
+                "rootPathPrefix": "~",
+                "rootPathSuffix": "src"
+            }]
+        ]
+      ]
+    },
+    "development": {
+      "plugins": ["react-hot-loader/babel", [
+            "babel-root-import",
+            [{
+                "rootPathPrefix": "~",
+                "rootPathSuffix": "src"
+            }]
+        ]]
+    }
+  }
+}
