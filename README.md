@@ -26,4 +26,6 @@ A react & redux & react-router & webpack2 starter kit for react SPA project.
 
 ## Tanks
 
- https://github.com/chentsulin/redux-boilerplate 一开始用的这个同胞的，但是很多地方不能满足，慢慢的修改成适合自己的
+ https://github.com/chentsulin/redux-boilerplate 
+ 
+ 一开始用的这个同胞的，但是很多地方不能满足，用 webpack2 修改成适合自己的，和原来的已经有很大的区别了。
