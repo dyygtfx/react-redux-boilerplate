@@ -10,7 +10,7 @@ A react & redux & react-router & webpack2 starter kit for react SPA project.
 - npm build
 
 
-## 功能
+## feature
 
 - css module
 - less, post-css
@@ -19,10 +19,6 @@ A react & redux & react-router & webpack2 starter kit for react SPA project.
 - redux & react-router & redux-action & redux-promise
 - webpack2 
 - more
-
-## TODO
-
-- update readme
 
 ## Tanks
 
