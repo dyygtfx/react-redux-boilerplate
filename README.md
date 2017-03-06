@@ -23,3 +23,7 @@ A react & redux & react-router & webpack2 starter kit for react SPA project.
 ## TODO
 
 - update readme
+
+## Tanks
+
+based on https://github.com/chentsulin/redux-boilerplate
