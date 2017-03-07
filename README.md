@@ -10,16 +10,17 @@ A react & redux & react-router & webpack2 starter kit for react SPA project.
 - npm build
 
 
-## feature
+## Feature
 
 - css module
-- less, post-css
+- less
+- post-css
 - react hot reload
 - support DllPlugin
 - redux & react-router & redux-action & redux-promise
 - webpack2 
 - HtmlWebpackPlugin
-- jest && enzyme
+- jest & enzyme
 - eslint
 - more ...
 
