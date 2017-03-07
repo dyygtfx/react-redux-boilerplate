@@ -18,7 +18,10 @@ A react & redux & react-router & webpack2 starter kit for react SPA project.
 - dll
 - redux & react-router & redux-action & redux-promise
 - webpack2 
-- more
+- HtmlWebpackPlugin
+- jest && enzyme
+- eslint
+- more ...
 
 ## Tanks
 
