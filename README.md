@@ -15,7 +15,7 @@ A react & redux & react-router & webpack2 starter kit for react SPA project.
 - css module
 - less, post-css
 - react hot reload
-- dll
+- support DllPlugin
 - redux & react-router & redux-action & redux-promise
 - webpack2 
 - HtmlWebpackPlugin
@@ -23,8 +23,6 @@ A react & redux & react-router & webpack2 starter kit for react SPA project.
 - eslint
 - more ...
 
-## Tanks
+## license
 
- https://github.com/chentsulin/redux-boilerplate 
- 
- 一开始用的这个同胞的，但是很多地方不能满足，用 webpack2 修改成适合自己的，和原来的已经有很大的区别了。
+MIT
