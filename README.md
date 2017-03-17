@@ -5,6 +5,7 @@ A react & redux & react-router & webpack2 starter kit for react SPA project.
 
 ## Usage
 
+- git clone git@github.com:dyygtfx/react-redux-boilerplate.git
 - npm install
 - npm start 
 - npm build
