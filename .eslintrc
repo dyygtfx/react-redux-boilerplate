@@ -1,83 +1,78 @@
 {
+    "parser": "babel-eslint",
     "extends": "airbnb",
+    "plugins": ["react", "jsx-a11y", "import"],
     "rules": {
         "strict": [0],
         "no-cond-assign": 0,
         "global-require": [0],
         "new-cap": 0,
         "no-unused-vars": [1],
-        "max-len": [1,  {
-            "code": 120,
-            "ignoreUrls": true,
-            "ignoreTrailingComments": true,
-            "ignoreComments": true,
-            "ignorePattern": "^\\s*(const|let|var)\\s+\\w+\\s+\\=\\s+\\/.*\\/(|i|g|m|ig|im|gm|igm);?$"
-
-        }],
-        "no-unused-expressions": ["error", { "allowTernary": true }],
+        "no-useless-escape": "off",
+        "max-len": [
+            1,
+            {
+                "code": 120,
+                "ignoreUrls": true,
+                "ignoreTrailingComments": true,
+                "ignoreComments": true,
+                "ignorePattern":
+                    "^\\s*(const|let|var)\\s+\\w+\\s+\\=\\s+\\/.*\\/(|i|g|m|ig|im|gm|igm);?$"
+            }
+        ],
+        "object-curly-newline": 0,
+        "no-lonely-if": 1,
+        "no-unused-expressions": [
+            "error",
+            { "allowTernary": true, "allowShortCircuit": true }
+        ],
         "prefer-template": 0,
         "eqeqeq": "off",
+        "space-before-function-paren": 0,
         "arrow-parens": 0,
         "no-console": 0,
         "no-trailing-spaces": 0,
         "indent": ["error", 4],
-        "react/prop-types": 0,
         "no-param-reassign": 0,
+        "no-nested-ternary": 1,
+        "prefer-destructuring": 1,
         "no-underscore-dangle": 0,
         "func-names": 0,
+        "camelcase": 0,
         "prefer-arrow-callback": 0,
         "comma-dangle": ["error", "only-multiline"],
         "import/no-unresolved": [0],
         "react/jsx-indent": [2, 4],
         "react/jsx-indent-props": [2, 4],
         "react/jsx-filename-extension": [0],
-        "import/no-extraneous-dependencies": [0],
         "react/forbid-prop-types": [1],
+        "jsx-a11y/no-static-element-interactions": [0],
+        "class-methods-use-this": [0],
+        "wrap-iife": [2, "any"],
         "react/jsx-no-bind": [0],
-        "react/sort-comp": [1, {
-            "order": [
-                "static-methods",
-                "lifecycle",
-                "everything-else",
-                "rendering"
-            ],
-            "groups": {
-                "rendering": [
-                    "/^render.+$/",
-                    "render"
-                ]
-            }
-        }],
-        "no-multi-comp": [0],
-        "prefer-stateless-function": [0],
-        "camelcase": [0]
-    },
-    "parserOptions": {
-        "sourceType": "module",
-        "ecmaFeatures": {
-            "jsx": true,
-            "modules": true,
-            "experimentalObjectRestSpread": true
-        }
-    },
+        "jsx-a11y/label-has-for": 1,
+        "jsx-a11y/anchor-is-valid": [
+            "error",
+            { "components": ["Link"], "specialLink": ["to"] }
+        ],
+        "react/jsx-curly-brace-presence": [0],
+        "jsx-a11y/click-events-have-key-events": 0,
 
-    "env": {
-        "es6": true,
-        "browser": true,
-        "node": true
+        "jsx-a11y/href-no-hash": "off",
+        "react/prop-types": [1, { "ignore": ["children"] }],
+        "react/prefer-stateless-function": 1,
+        "import/extensions": [1, { "js": "never", "json": "never" }],
+        "import/no-extraneous-dependencies": [0]
     },
     "globals": {
-        "SyncHistoryService": true,
-        "$": true,
-        "AccountService": true,
-        "toastr": true,
-        "V": true,
-        "ReportForm": true,
-        "_": true,
-        "SITE_URL": true,
-        "chrome": true
+        "document": true,
+        "window": true,
+        "DEVICE": true,
+        "localStorage": true
     },
-    "plugins": [
-        "react"
-    ]
+    "env": {
+        "es6": true,
+        "node": true,
+        "jest": true
+    }
 }
