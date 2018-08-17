@@ -27,7 +27,7 @@ A react & redux & react-router & webpack4 starter kit for react SPA project.
 - more 
 ## 设置
 
-webpack.config.js 里的 pubilcPath 可以你的 CDN 地址，这样编译后静态资源就直接在 CDN 上了
+webpack.config.js 里的 pubilcPath 可以设置你的 CDN 地址，这样编译后静态资源就直接在 CDN 上了
 
 ## license
 
