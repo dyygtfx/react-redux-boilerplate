@@ -19,7 +19,7 @@ A react & redux & react-router & webpack4 starter kit for react SPA project.
 - post-css
 - react hot reload
 - support DllPlugin
-- redux & react-router & redux-action & redux-promise
+- redux & connected-react-router & redux-action & redux-thunk
 - webpack4
 - HtmlWebpackPlugin
 - jest & enzyme
