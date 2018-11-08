@@ -1,7 +1,8 @@
-# react-redux-boilerplate
+# react-redux-boilerplate （Stop develop)
 A react & redux & react-router & webpack4 starter kit for react SPA project.
-
 一个基于 react(v16.4+), redux, react-router, webpack4 的单页面应用脚手架。
+
+> ## Please use [athena](https://github.com/dyygtfx/athena) instead of 
 
 ## Usage
 
